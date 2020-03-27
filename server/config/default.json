@@ -1,0 +1,33 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "public": "../public/",
+  "paginate": {
+    "default": 100,
+    "max": 500
+  },
+  "authentication": {
+    "entity": "user",
+    "service": "users",
+    "secret": "mi/fly2fRKzjlBR9CSdifiWAcgA=",
+    "authStrategies": [
+      "jwt",
+      "local"
+    ],
+    "jwtOptions": {
+      "header": {
+        "typ": "access"
+      },
+      "audience": "https://board.coding.com",
+      "issuer": "feathers",
+      "algorithm": "HS256",
+      "expiresIn": "1d"
+    },
+    "local": {
+      "entity": "user",
+      "usernameField": "\\username",
+      "passwordField": "password"
+    }
+  },
+  "mongodb": "mongodb://lucasgabule:FacebookLover24@cluster0-shard-00-00-crjhu.mongodb.net:27017,cluster0-shard-00-01-crjhu.mongodb.net:27017,cluster0-shard-00-02-crjhu.mongodb.net:27017/trello-clone?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority"
+}
