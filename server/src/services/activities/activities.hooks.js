@@ -1,12 +1,16 @@
-const {isBoardOwner} = require('../../hooks/authorization');
-const {authenticate} = require('@feathersjs/authentication').hooks;
+const { authenticate } = require('@feathersjs/authentication').hooks;
+const hooks = require('feathers-authentication-hooks');
 
 module.exports = {
   before: {
-    all: [authenticate('jwt'), isBoardOwner],
+    all: [ authenticate('jwt') ],
     find: [],
     get: [],
-    create: [],
+    create: [
+      hooks.associateCurrentUser({
+        as: 'userId'
+      })
+    ],
     update: [],
     patch: [],
     remove: []
