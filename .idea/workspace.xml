@@ -3,21 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="504ca979-1a4f-4fd7-b699-b4f88238b255" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/John_paul.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/John_paul.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/CardCreate.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/CardCreate.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/cards/CardCreate.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/store/services/boards.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/services/boards.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/store/services/lists.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/services/lists.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/store/services/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/services/users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/views/Board.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/Board.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/views/Boards.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/Boards.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/services/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/services/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/services/lists/lists.hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/services/lists/lists.hooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/Login.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Vue Single File Component" />
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -57,6 +51,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\VUE PROJECTS\trelloClone\client\src\components\cards" />
+      <recent name="D:\VUE PROJECTS\trelloClone\client\src\components\Boards" />
       <recent name="D:\VUE PROJECTS\trelloClone\client\src\store" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -120,7 +116,7 @@
       <workItem from="1585321568368" duration="3026000" />
       <workItem from="1585343959419" duration="24124000" />
       <workItem from="1585379305149" duration="14342000" />
-      <workItem from="1585440381107" duration="22582000" />
+      <workItem from="1585440381107" duration="33090000" />
     </task>
     <servers />
   </component>
