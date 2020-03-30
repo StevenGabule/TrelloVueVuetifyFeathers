@@ -1,7 +1,8 @@
 const mongoose = require('mongoose');
 
 async function isBoardOwner(context) {
-  const boardId = context.params.query.boardId || context.data.boardId;
+  const { boardId } = context.params.query || context.data;
+
   if (!boardId) {
     return context;
   }
